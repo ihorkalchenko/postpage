@@ -1,0 +1,15 @@
+// Body
+$body-bg: #f2f2f2;
+$body-color: #333;
+
+// Links
+$link-color: #b6b6b6;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+// Fonts
+$base-font-family: 'Stag Book', serif;
+$base-font-size: 1rem !default;
+$base-font-weight: 400 !default;
+$base-line-height: 1.5 !default;
