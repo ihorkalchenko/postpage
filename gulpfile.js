@@ -39,6 +39,7 @@ const config = {
     server: {
         baseDir: './dist'
     },
+    browser: ['chrome.exe'],
     notify: false,
     host: 'localhost',
     port: 3030,
