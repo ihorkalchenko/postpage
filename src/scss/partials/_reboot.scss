@@ -212,3 +212,17 @@ textarea {
 [hidden] {
   display: none !important;
 }
+
+// wrap
+.wrap {
+  position: relative;
+}
+
+.wrap {
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 48rem) {
+    max-width: 940px;
+  }
+}

@@ -94,10 +94,10 @@ gulp.task('watch', () => {
     gulp.watch(path.watch.fonts, ['fonts']);
 });
 
-gulp.task('webserver', () => {
+gulp.task('web-server', () => {
     browserSync(config);
 });
 
 gulp.task('clean', (cb) => rimraf(path.clean, cb));
 
-gulp.task('default', ['html', 'js', 'scss', 'img', 'fonts', 'webserver', 'watch']);
+gulp.task('default', ['html', 'js', 'scss', 'img', 'fonts', 'web-server', 'watch']);

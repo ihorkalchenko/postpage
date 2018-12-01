@@ -1,9 +1,12 @@
+/* ** mixins ** */
+@import 'mixins/hover';
 
-// mixins
-@import "mixins/hover";
+/* ** partials ** */
+@import 'partials/variables';
+@import 'partials/fonts';
+@import 'partials/reboot';
+@import 'partials/buttons';
 
-// layout
-@import "variables";
-@import "fonts";
-@import "reboot";
-@import "buttons";
+/* ** components ** */
+@import 'page';
+@import 'post';

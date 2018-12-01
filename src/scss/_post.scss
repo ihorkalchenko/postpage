@@ -1,0 +1,10 @@
+.entry-title {
+  font-family: 'Stag SemiBold', sans-serif;
+  font-size: 1.875rem; // 30px
+
+  &::before {
+    content: '';
+    position: relative;
+
+  }
+}

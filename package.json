@@ -5,7 +5,7 @@
   "author": "ihor kalchenko",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.7"
+    "browser-sync": "^2.26.2"
   },
   "dependencies": {
     "gulp": "^3.9.1",
